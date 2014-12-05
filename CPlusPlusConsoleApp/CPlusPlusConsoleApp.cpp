@@ -6,7 +6,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-   printf( "Version 2\n" );
+   printf( "Version 3\n" );
    printf( "Hello World!" );
    __debugbreak();
 	return 0;
