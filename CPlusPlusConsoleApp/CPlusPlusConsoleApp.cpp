@@ -2,12 +2,17 @@
 #include "../CPlusPlusStaticLibrary/CPlusPlusStaticLibrary.h"
 
 
+void CallStaticLibrary()
+{
+   CallDebugBreak();
+}
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-   printf( "Version 4\n" );
+   printf( "Version 5\n" );
    printf( "Hello World!" );
 
-   CallDebugBreak();
+   CallStaticLibrary();
 
 	return 0;
 }
