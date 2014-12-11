@@ -1,14 +1,14 @@
-// CPlusPlusConsoleApp.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
+#include "../CPlusPlusStaticLibrary/CPlusPlusStaticLibrary.h"
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-   printf( "Version 3\n" );
+   printf( "Version 4\n" );
    printf( "Hello World!" );
-   __debugbreak();
+
+   CallDebugBreak();
+
 	return 0;
 }
 
