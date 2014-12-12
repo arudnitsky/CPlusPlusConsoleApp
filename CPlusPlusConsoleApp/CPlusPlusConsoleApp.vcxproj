@@ -152,6 +152,9 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CPlusPlusDll\CPlusPlusDll.vcxproj">
+      <Project>{9cabc9dd-ae24-4518-bfb9-f7638c8b2de7}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\CPlusPlusStaticLibrary\CPlusPlusStaticLibrary.vcxproj">
       <Project>{9d19e2a7-149c-4574-a48e-e456057ddc73}</Project>
     </ProjectReference>
